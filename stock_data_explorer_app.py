@@ -18,7 +18,7 @@ def main():
      
     @st.cache(persist=True, allow_output_mutation=True)
     def load_data():
-        data = pd.read_excel("company_data_new.xls")
+        data = pd.read_excel("company_data_new.xlsx")
         return data
     
     #load data
